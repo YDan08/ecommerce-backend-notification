@@ -1,0 +1,23 @@
+{
+	"name": "ecommerce-backend-notification",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "tsx watch src/app.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"description": "",
+	"dependencies": {
+		"amqplib": "^0.10.3",
+		"nodemailer": "^6.9.12"
+	},
+	"devDependencies": {
+		"@types/amqplib": "^0.10.5",
+		"@types/nodemailer": "^6.4.14",
+		"dotenv": "^16.4.5",
+		"tsx": "^4.7.1",
+		"typescript": "^5.4.2"
+	}
+}
